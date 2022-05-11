@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: rgba(204, 196, 233, 0.788);
+    background-color: rgb(100, 196, 250);
     font-size: 18px;
     border: 1px solid rgb(10, 3, 3);
     /* border-top: 1px solid black; */
@@ -88,20 +88,28 @@ header{
 }   
 .experiencia{
     border: 1px solid rgb(190, 184, 184);
-    margin: 10%;
+    border-radius: 30px;
+    margin: 20px;
     padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
     
 }
 footer{
     display: flex;
     margin:0;
-    background-color: rgba(204, 196, 233, 0.788);
+    background-color: rgb(100, 196, 250);
     padding: 50px;
-    margin:0;
+    margin:0px;
+    font-size: 20px;
+    box-sizing: border-box;
+    
 }
 .contact{
-    margin-left: 40%;
+    padding: 0px;
+    margin: auto;
 }
+
 
 
 
