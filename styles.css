@@ -5,15 +5,18 @@
 body{
     display: flex;
     flex-direction: column;
+    background-image: url(https://i0.wp.com/emotioncard.com.br/wp-content/uploads/2019/04/plano-de-fundo-preto28.jpg?resize=1120%2C700&ssl=1);
+    color: aliceblue;
+    
 }
 
 header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: rgb(184, 147, 74);
+    background-color: rgba(204, 196, 233, 0.788);
     font-size: 18px;
-    border: 1px solid black;
+    border: 1px solid rgb(10, 3, 3);
     /* border-top: 1px solid black; */
     align-items: center;
     position: fixed;
@@ -54,6 +57,50 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    
+}
+.ContainerSkills{
+    position: absolute;
+    margin-left: 40%;
+     
+}
+.skill{
+    position: relative;
+    padding: 90px;
+    
+}
+
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+    
+}
+.iconskill{
+    padding: 30px;
+}
+.experiencias{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}   
+.experiencia{
+    border: 1px solid rgb(190, 184, 184);
+    margin: 10%;
+    padding: 20px;
+    
+}
+footer{
+    display: flex;
+    margin:0;
+    background-color: rgba(204, 196, 233, 0.788);
+    padding: 50px;
+    margin:0;
+}
+.contact{
+    margin-left: 40%;
 }
 
 
