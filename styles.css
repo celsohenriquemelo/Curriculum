@@ -1,115 +1,70 @@
 *{
-    margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 body{
-    display: flex;
-    flex-direction: column;
-    background-image: url(https://i0.wp.com/emotioncard.com.br/wp-content/uploads/2019/04/plano-de-fundo-preto28.jpg?resize=1120%2C700&ssl=1);
-    color: aliceblue;
-    
+  color:white;
+  background-color: black;
 }
 
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(20, 76, 243);
+  font-size: 20px;
+}
+a{
+  color: white;
+}
 header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background-color: rgb(100, 196, 250);
-    font-size: 18px;
-    border: 1px solid rgb(10, 3, 3);
-    /* border-top: 1px solid black; */
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-}
-.menu{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    
-}
-.MenuButton{
-    padding: 20px;
-
-}
-.logo{
-    margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 200px;
 }
 
-/* main{
-    margin-top: 80px;
-} */
-
-.section{
-    display: flex;
-    width: 100%;
-    height: 100vh;
+h1{
+  color: white;
 }
-
-.home{
-    position: relative;
-
-}
-
-.ContainerHome{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    
-}
-.ContainerSkills{
-    position: absolute;
-    margin-left: 40%;
-     
-}
-.skill{
-    position: relative;
-    padding: 90px;
-    
-}
-
-
-.skills{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    
-    
-}
-.iconskill{
-    padding: 30px;
-}
-.experiencias{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-}   
-.experiencia{
-    border: 1px solid rgb(190, 184, 184);
-    border-radius: 30px;
-    margin: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    
+footer img{
+  display: flex;
+  justify-content: center;
 }
 footer{
-    display: flex;
-    margin:0;
-    background-color: rgb(100, 196, 250);
-    padding: 50px;
-    margin:0px;
-    font-size: 20px;
-    box-sizing: border-box;
-    
+  display: flex;
+  justify-content: center;
+  background-color: rgb(20, 76, 243);
 }
-.contact{
-    padding: 0px;
-    margin: auto;
+footer a{
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+footer p{
+  margin-top: 2px;
+}
+section img{
+ width:400px;
+ height: 200px;
+ 
+}
+.skills{
+  text-align: center;
+  padding: 50px;
 }
 
-
-
+.experienciascontainer{
+  padding: 50px;
+  margin: 10px;
+  text-align: left;
+  
+}
+.cursos p{
+  margin-bottom: 30px;
+}
+section h3{
+  margin-bottom: 30px;
+}
 
